@@ -1,0 +1,26 @@
+digraph {
+  U[
+    shape="box",
+    style=rounded,
+    label="React world!"
+  ]
+  U -> A;
+  U -> C;
+
+  A[
+    shape="diamond",
+    label="Haha"
+  ]
+  A -> B;
+
+  C[
+    shape="heart",
+    label="Yes, you bet!"
+  ]
+  C -> B;
+
+  B[
+    shape="box",
+    label="Finished"
+  ]
+}
